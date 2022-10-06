@@ -63,7 +63,7 @@ hdfs dfs -chmod -R 770 /user/flume
 
 ----**** Start the agent ****-----
 
-sudo /opt/cloudera/parcels/CDH-5.13.1-1.cdh5.13.1.p0.2/etc/init.d/flume-ng-agent status
+sudo /opt/cloudera/parcels/CDH-6.3.3-1.cdh6.3.3.p0.1796617/etc/init.d/flume-ng-agent status
 
-sudo /opt/cloudera/parcels/CDH-5.13.1-1.cdh5.13.1.p0.2/etc/init.d/flume-ng-agent start
+sudo /opt/cloudera/parcels/CDH-6.3.3-1.cdh6.3.3.p0.1796617/etc/init.d/flume-ng-agent start
 
