@@ -62,13 +62,13 @@ sqoop list-tables --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/clas
 
 -----*** Sqoop Import ***-----
 
-sqoop import --connect jdbc:mysql://<database_dns>:3306/classicmodels --username sqoopuser --password password --table employees -m 1
+sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees -m 1
 
-sqoop import --connect jdbc:mysql://<database_dns>:3306/classicmodels --username sqoopuser --password password --table employees -m 1 --target-dir /user/hdfs/new/
+sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees -m 1 --target-dir /user/hdfs/new/
 
-sqoop import --connect jdbc:mysql://<database_dns>:3306/classicmodels --username sqoopuser --password password --table employees --create-hive-table --hive-import --target-dir /user/hdfs/emphive/
+sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees --create-hive-table --hive-import --target-dir /user/hdfs/emphive/
 
-sqoop import --connect jdbc:mysql://ip-172-31-26-71.us-west-2.compute.internal:3306/classicmodels --username sqoopuser --password password --table employees --create-hive-table --hive-import --target-dir /user/hdfs/emphive/
+sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees --create-hive-table --hive-import --target-dir /user/hdfs/emphive/
 
 
 -----*** Sqoop Export ***-----
