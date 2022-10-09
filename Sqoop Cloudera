@@ -53,11 +53,11 @@ sudo apt-get install libmysql-java
 
 ### Check connection to database
 
-$ sqoop list-databases --connect jdbc:mysql://<database_dns>:3306/ --username sqoopuser -P
+$ sqoop list-databases --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/ --username sqoopuser -P
 
-$ sqoop list-tables --connect jdbc:mysql://<database_dns>:3306/classicmodels --username sqoopuser -P
+$ sqoop list-tables --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser -P
 
-sqoop list-tables --connect jdbc:mysql://ip-172-31-26-71.us-west-2.compute.internal:3306/classicmodels --username sqoopuser -P
+sqoop list-tables --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser -P
 
 
 -----*** Sqoop Import ***-----
