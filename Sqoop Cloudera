@@ -87,7 +87,7 @@ mysql>create table export like employees;
 
 ###
 
-sqoop export --connect jdbc:mysql://<database_dns>:3306/classicmodels --username sqoopuser --password password --table export --export-dir /user/hdfs/employees/
+sqoop export --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table export --export-dir /user/hdfs/employees/
 
 
 ### Check data in database
