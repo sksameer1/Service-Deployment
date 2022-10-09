@@ -99,7 +99,9 @@ mysql> select * from export;
 
 
 
+--------------------------------------
 
+https://stackoverflow.com/questions/36440469/warning-usr-lib-sqoop-accumulo-does-not-exist-accumulo-imports-will-fail-p
 
 
 
