@@ -104,6 +104,10 @@ mysql> select * from export;
 https://stackoverflow.com/questions/36440469/warning-usr-lib-sqoop-accumulo-does-not-exist-accumulo-imports-will-fail-p
 
 
-
+mkdir /var/lib/accumulo
+ACCUMULO_HOME='/var/lib/accumulo'
+export ACCUMULO_HOME
+echo $ACCUMULO_HOME
+sqoop help
 
 
