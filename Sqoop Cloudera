@@ -64,6 +64,8 @@ sqoop list-tables --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/clas
 
 sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees -m 1
 
+[ method of telling import command is = sqoop import and then connection url and user name, password and then the table name]
+
 sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees -m 1 --target-dir /user/hdfs/new/
 
 sqoop import --connect jdbc:mysql://ip-172-31-27-143.ec2.internal:3306/classicmodels --username sqoopuser --password password --table employees --create-hive-table --hive-import --target-dir /user/hdfs/emphive/
